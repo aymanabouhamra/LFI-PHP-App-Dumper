@@ -45,7 +45,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument('base', metavar='Base_URL', help='Example: http://testphp.vulnweb.com')
 parser.add_argument('-indexFile', dest='indexFile', help='This is the index PHP file / starting point PHP file. Defaults to \'index.php\'', default='index.php')
 parser.add_argument('-www', dest='www', help='This is the absolute directory on the server that is serving the PHP app. Defaults to \'/var/www/\'', default='/var/www/')
-parser.add_argument('-o', dest='output', help='This is the directory in which the PHP source code files will be saved in. Defualts to \'output\'', default='output')
+parser.add_argument('-output', dest='output', help='This is the directory in which the PHP source code files will be saved in. Defualts to \'output\'', default='output')
 args = parser.parse_args()
 
 output = args.output
