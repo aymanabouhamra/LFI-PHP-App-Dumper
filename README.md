@@ -21,3 +21,7 @@ python dumper.py http://testphp.vulnweb.com -www /hj/var/www/
 | indexFile | This is the index PHP file / starting point | index.php | index.php |
 | www | This is the absolute directory on the server that is serving the PHP app | /var/www/ | /var/www/my-app/
 | output | This is the directory in which the PHP source code files will be saved in | output (in the current working directory) | /home/user/Workspaces/app/
+
+## Disclaimer
+
+This tool is developed specifically for penetration testers and cybersecurity professionals. It is intended solely for demonstrational and research purposes. The use of this tool must comply with all applicable laws and regulations. Unauthorized use of this tool for malicious purposes, including but not limited to unauthorized system access or data breaches, is strictly prohibited. The creators and distributors of this tool are not responsible for any misuse or damage caused by its use. Always ensure that you have proper authorization before conducting any security testing activities.
